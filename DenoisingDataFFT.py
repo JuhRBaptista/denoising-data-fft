@@ -45,7 +45,7 @@ def gerar_sinal():
     plt.subplot(2, 2, 3)
     plt.plot(freq[L], PSD[L], color='c', label='Noisy')
     plt.plot(freq[L], PSDclean[L], color='k', label='Filtered')
-    plt.title("Espectro de Frequências (PSD)")
+    plt.title("Espectro de Frequências")
     plt.legend()
 
     plt.subplot(2, 2, 4)
