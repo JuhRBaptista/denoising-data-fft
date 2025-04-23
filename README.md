@@ -23,7 +23,9 @@ Este repositório apresenta um exemplo prático de como utilizar a FFT para filt
 
 A **Transformada de Fourier** permite transformar sinais do **domínio do tempo** para o **domínio da frequência**. No entanto, quando trabalhamos computacionalmente, lidamos com **sinais discretos** — ou seja, um conjunto de amostras de um sinal contínuo, obtidas em um intervalo de tempo.
 
-> (📷 _inserir imagem de um gráfico contínuo e suas amostras_)
+<p align="center">
+  <img src="images/amostragemSinalContinuo.png" alt="Gŕaifco Sinal Discreto" width="800"/>
+</p>
 
 Para processar essas amostras, utilizamos a **Transformada Discreta de Fourier (DFT)**. Ela transforma um vetor de amostras $\( f[n] \)$ em um vetor de coeficientes de Fourier $\( \hat{f}[k] \)$, por meio da seguinte fórmula:
 
@@ -33,7 +35,9 @@ Para processar essas amostras, utilizamos a **Transformada Discreta de Fourier (
 
 Essa fórmula utiliza a constante $\( W_n = e^{-i2\pi/n} \)$, onde $\( i = \sqrt{-1} \)$. Substituindo essa constante, podemos expressar a DFT como uma **multiplicação de matrizes**:
 
-> (📷 _inserir imagem da multiplicação matricial da DFT_)
+<p align="center">
+  <img src="images/DFTMatrix.png" alt="Matriz DFT" width="800"/>
+</p>
 
 Embora funcional, esse método tem complexidade **O(n²)**, pois exige $\( n \times n \)$ multiplicações — o que se torna inviável para sinais grandes.
 
