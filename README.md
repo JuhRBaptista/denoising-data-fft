@@ -15,7 +15,6 @@ Este repositório apresenta um exemplo prático de como utilizar a FFT para filt
 - [📊 Visualizações](#-visualizações)
 - [🎯 Objetivo](#-objetivo)
 - [🛠️ Requisitos](#️-requisitos)
-- [🚀 Execução](#-execução)
 
 ---
 
@@ -43,7 +42,9 @@ Embora funcional, esse método tem complexidade **O(n²)**, pois exige $\( n \ti
 
 Para resolver esse problema, foi desenvolvida a **FFT**, que otimiza a DFT reorganizando as operações em um conjunto de matrizes menores:
 
-> (📷 _inserir imagem da fórmula da FFT_)
+<p align="center">
+  <img src="images/FFTMatrix.png" alt="Matriz FFT" width="800"/>
+</p>
 
 Por exemplo, um vetor de 1024 amostras pode ser dividido em dois de 512, e assim por diante, até chegar em vetores de tamanho 2. Essa divisão reduz drasticamente a quantidade de operações, resultando em uma complexidade de **O(n log n)**.
 
