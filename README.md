@@ -86,7 +86,7 @@ Durante a execução, os seguintes gráficos são gerados automaticamente:
 
 - 🎵 **Sinal original** (`clean`)
 - 🌪️ **Sinal com ruído** (`noisy`)
-- 📉 **Espectro de Frequência (PSD)**
+- 📉 **Espectro de Frequência**
 - 🧼 **Sinal filtrado** (`filtered`)
 
 Essas visualizações tornam o processo de supressão de ruído mais intuitivo e facilitam a comparação entre os sinais.
