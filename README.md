@@ -10,10 +10,10 @@ Este repositório apresenta um exemplo prático de como utilizar a FFT para filt
 
 ## 📚 Índice
 
-- [🔍 Entendendo a DFT e a FFT](#-entendendo-a-dft-e-a-fft)
-- [🧠 O Algoritmo](#-o-algoritmo)
-- [📊 Resultados](#-visualizações)
-- [🛠️ Requisitos](#️-requisitos)
+- [Entendendo a DFT e a FFT](#-entendendo-a-dft-e-a-fft)
+- [O Algoritmo](#-o-algoritmo)
+- [Resultados](#-visualizações)
+- [Requisitos](#️-requisitos)
 
 ---
 
@@ -84,10 +84,10 @@ Entendido o conceito da FFT, vejamos como ela é aplicada neste projeto. O códi
 
 Durante a execução, os seguintes gráficos são gerados automaticamente:
 
-- 🎵 **Sinal original** (`clean`)
-- 🌪️ **Sinal com ruído** (`noisy`)
-- 📉 **Espectro de Frequência**
-- 🧼 **Sinal filtrado** (`filtered`)
+-  **Sinal original** (`clean`)
+-  **Sinal com ruído** (`noisy`)
+-  **Espectro de Frequência**
+-  **Sinal filtrado** (`filtered`)
 
 Essas visualizações tornam o processo de supressão de ruído mais intuitivo e facilitam a comparação entre os sinais.
 
